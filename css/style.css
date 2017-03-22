@@ -1,0 +1,231 @@
+a 
+{
+	text-decoration: none;
+	color: #0D2238;
+}
+
+hr
+{
+	width: 73%;
+	border: 1px solid #000;
+}
+
+body,html 
+{
+		
+	margin: 0px;
+	padding: 0px;
+	background-color: #DCE4ED;
+}
+
+
+.container 
+{
+	width: auto;
+	
+}
+
+.logo
+{
+	position: relative;
+}
+
+.mlink 
+{
+	color: #FFF;
+}
+
+.mlink:hover
+{
+	border-bottom: 3px solid #F00;
+	text-decoration: none;
+	color: #D3DDE8;
+}
+
+.htext
+{
+	border-bottom: 2px dotted #000;
+}
+
+.htext:hover
+{
+	color: #141B21;
+}
+
+.car_img_min
+{
+	width: 310px;
+	height: 200px;
+	border: 2px solid #0D2238;
+	border-radius: 10px;
+	margin-bottom: 5px;
+}
+
+.menu_ico
+{
+	display: none;
+}
+
+.less
+{
+	display: none;
+}
+
+.less_info
+{
+	display: block;
+}
+
+.more_info
+{
+	display: none;
+}
+
+
+#header
+{
+	background-color: #223D59;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	clear: both;
+}
+
+#menu 
+{
+	
+	background-color: #0D2238;
+	position: relative;
+	font-size: x-large;
+	left: 0px;
+	display: block;
+	margin-top: 1px solid #000;
+	border-radius: 0px 0px 10px 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#mobile_bar
+{
+	display: none;
+}
+
+#letters
+{
+	font-size: large;
+}
+
+#comp_list
+{
+	background-color: #B3C6DB;
+	border-radius: 10px;	
+	border: 1px solid #99B2CF;
+	padding-left: 20px;
+	margin-bottom: 5px;
+}
+
+#car
+{
+	background-color: #B3C6DB;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	border: 1px solid #99B2CF;
+	margin-bottom: 20px;
+}
+
+#left
+{
+	font-family: 'Cabin Condensed', sans-serif;
+	float: left;
+	overflow: hidden;
+	width: 75%;
+	
+}
+
+#right
+{
+	font-family: 'Cabin Condensed', sans-serif;
+	float: right;
+	width: 23%;
+	
+	display: block;
+	font-size: large;
+}
+
+#p_bar
+{
+	font-size: large;
+	padding-bottom: 15px;
+	padding-left: 10px;
+}
+
+#footer
+{
+	font-family: 'Roboto Condensed', sans-serif;
+	clear: both;
+	background-color: #222222;
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	color: #FFF;
+	text-align: center;
+}
+
+@media screen and (min-width: 1px) and (max-width: 790px) 
+{
+	#left 
+	{
+		width: 100%;
+	}
+	
+	#right
+	{
+		display: none;
+	}	
+	
+	#menu 
+	{
+		display: block;
+		font-size: xx-large;
+		text-align: center;
+		overflow: hidden;
+		display: none;
+	}
+	
+	.mlink
+	{
+		clear: both;
+		display: inline-block;
+		white-space: pre;
+		display: none;
+	}
+	.mlink:hover
+	{
+		
+		border-bottom: none;
+	}
+	#mobile_bar
+	{
+		width: 100%;
+		display: block;
+		background-color: #0D2238;
+		height: 50px;
+		border-radius: 0px 0px 10px 10px;
+	}	
+	.menu_ico
+	{
+		top: 103px;
+		cursor: pointer;
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		display: block;
+		right: 25px;
+	}
+	
+
+}
